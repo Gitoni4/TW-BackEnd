@@ -12,6 +12,7 @@ class RequestBody {
         let qString = req.url.split('?')
 
         this.qsParams = querystring.parse(qString[1])
+        //
     }
 }
 
